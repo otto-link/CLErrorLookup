@@ -83,6 +83,14 @@ For an error code `-42`:
   ```
   CL_INVALID_BINARY [-42]: If the program is created with clCreateProgramWithBinary and devices listed in device_list do not have a valid program binary loaded. The provided binary is unfit for the selected device. Compile-time Errors (driver-independent).
   ```
+  
+## Attribution
+
+The OpenCL error code descriptions used in this library are based on the detailed information provided by this post: [OpenCL Error Codes - StreamHPC](https://streamhpc.com/blog/2013-04-28/opencl-error-codes/).
+
+## Contributing
+
+If you find any incorrect or missing error codes, please use the [GitHub Issues](https://github.com/otto-link/CLErrorLookup/issues) to propose modifications. Contributions are always welcome and help ensure the accuracy and usefulness of the library.
 
 ## License
 
