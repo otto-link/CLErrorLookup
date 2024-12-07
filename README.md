@@ -1,6 +1,6 @@
 # CLErrorLookup
 
-CLErrorLookup is a lightweight library for decoding OpenCL error codes into human-readable strings and descriptions.
+CLErrorLookup is a C++ lightweight library for decoding OpenCL error codes into human-readable strings and descriptions.
 
 ## Features
 
