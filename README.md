@@ -56,7 +56,7 @@ To integrate CLErrorLookup into your CMake-based project, follow these steps:
 
 ### Basic Example
 ```cpp
-#include <clerrorlookup.hpp>
+#include <cl_error_lookup.hpp>
 
 // OpenCL error code
 int code = -42;
