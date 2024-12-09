@@ -24,8 +24,11 @@ std::string get_error_full(int code)
 
 void throw_opencl_error(int code)
 {
-  ErrorInfo error_info = get_error_info(code);
-  throw std::runtime_error("OpenCL Error " + get_error_full(code));
+  if (code != 0)
+  {
+    ErrorInfo error_info = get_error_info(code);
+    throw std::runtime_error("OpenCL Error " + get_error_full(code));
+  }
 }
 
 } // namespace clerror

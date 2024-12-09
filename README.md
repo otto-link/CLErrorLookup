@@ -68,9 +68,7 @@ std::string short_desc = clerror::get_error_str(code);  // "CL_INVALID_BINARY [-
 std::string full_desc = clerror::get_error_full(code);  // See output example below
 
 // Throw an exception with a detailed error message
-if (code != 0) {
-    clerror::throw_opencl_error(code);
-}
+clerror::throw_opencl_error(code);
 ```
 
 ### Example Output
